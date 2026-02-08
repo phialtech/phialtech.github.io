@@ -3,19 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Phial Tech</title>
+  <title>Scrool</title>
   <style>
+    :root{
+      --accent:#0b84ff;
+      --muted:#666;
+      --bg:#fff;
+      --radius:8px;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 2rem;
+      background: var(--bg);
+      color: #111;
+      line-height: 1.4;
     }
-    button {
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
+    header {
+      display:flex;
+      gap:1rem;
+      align-items:center;
+      margin-bottom:1rem;
     }
+    .logo {
+      width:72px;
+      height:72px;
+      background:linear-gradient(135deg,#0b84ff 0%,#6ad1ff 100%);
+      border-radius:16px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:700;
+      font-size:1.4rem;
+      box-shadow:0 6px 18px rgba(11,132,255,0.15);
+      flex:0 0 72px;
+      overflow:hidden;
+    }
+    .logo img {
+      width:100%;
+      height:100%;
+      max-width:100%;
+      max-height:100%;
+      display:block;
+      object-fit:contain;
+    }
+    h1 {
+      margin:0;
+      font-size:1.6rem;
+    }
+    .tagline {
+      margin:0.25rem 0 0;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    main p {
+      margin:1rem 0 1.25rem;
+    }
+    .actions {
+      display:flex;
+      gap:0.75rem;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    a.button {
+      display:inline-block;
+      text-decoration:none;
+      background:var(--accent);
+      color:#fff;
+      padding:0.6rem 1rem;
+      border-radius:var(--radius);
+      font-weight:600;
+    }
+    a.button:active { transform:translateY(1px); }
+    a.ghost {
+      text-decoration:none;
+      color:var(--accent);
+      padding:0.5rem 0.75rem;
+      border-radius:6px;
+      border:1px solid rgba(11,132,255,0.12);
+      background:transparent;
+    }
+    a.ghost:hover, a.button:hover { opacity:0.95; }
+    footer { margin-top:2rem; color:var(--muted); font-size:0.85rem; }
   </style>
 </head>
 <body>
-  <h1>Scrool app</h1>
+  <header>
+    <div class="logo" aria-hidden="true"><img src="icon.svg" alt="Scrool logo"></div>
+    <div>
+      <h1>Scrool — Virtual Touchpad</h1>
+      <div class="tagline">Tap to scroll, and more! — built for Android</div>
+    </div>
+  </header>
+
+  <main>
+    <p>
+      Scrool helps you glide through long articles, feeds and documents with smooth, comfortable scrolling controls designed for one-handed use and reduced physical strain.
+    </p>
+
+    <div class="actions">
+      <!-- Replace the href below with your Play Store URL when ready -->
+      <!-- <a id="playstore-link" class="button" href="#" target="_blank" rel="noopener" aria-label="Download Scrool on Google Play">Download on Google Play</a> -->
+
+      <!-- Privacy policy file to be created in this directory (privacy-policy.html) -->
+      <a class="ghost" href="privacy-policy.html" aria-label="Scrool privacy policy">Privacy Policy</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Phial Tech
+  </footer>
+
+  <script>
+    // small nicety: current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
