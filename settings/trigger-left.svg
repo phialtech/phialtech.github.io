@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Left edge trigger</title><desc id="desc">A vertical phone with a blue trigger bar in the lower-left edge and a gesture arcing inward and upward.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="80" y="7" width="80" height="126" rx="17" fill="white" stroke="#17304f" stroke-width="3"/>
+  <rect x="86" y="16" width="68" height="111" rx="11" fill="#f7fbfe" stroke="#dce8f0" stroke-width="2"/>
+  <rect x="86" y="101" width="11" height="22" rx="5" fill="#2478ff"/>
+  <path d="M97 112 C111 112 121 103 126 83" fill="none" stroke="#55d8df" stroke-width="4" stroke-linecap="round"/>
+  <path d="m120 86 7-7 2 10" fill="none" stroke="#55d8df" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

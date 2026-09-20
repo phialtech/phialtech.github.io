@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Corner frame</title><desc id="desc">A rounded square represented by four separate corner marks.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <path d="M86 32H72a15 15 0 0 0-15 15v13M154 32h14a15 15 0 0 1 15 15v13M57 80v13a15 15 0 0 0 15 15h14M183 80v13a15 15 0 0 1-15 15h-14" fill="none" stroke="#17304f" stroke-width="8" stroke-linecap="round"/>
+</svg>

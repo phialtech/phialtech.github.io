@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+  <title id="title">App-specific touchpad behavior</title>
+  <desc id="desc">Selecting an app applies its own tap, hold, and fling actions while that app is open.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef6ff"/><stop offset="1" stop-color="#e8fbf7"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%"><feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#0b1830" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="800" height="540" rx="36" fill="url(#bg)"/>
+
+  <!-- App picker -->
+  <g transform="translate(61 112)" filter="url(#shadow)">
+    <rect width="132" height="316" rx="30" fill="#fff"/>
+    <g transform="translate(28 27)">
+      <rect width="76" height="76" rx="21" fill="#edf5ff"/>
+      <rect x="18" y="20" width="40" height="32" rx="12" fill="#2478ff"/>
+      <path d="m31 52-7 8 1-12" fill="#2478ff"/>
+    </g>
+    <g transform="translate(20 117)">
+      <rect width="92" height="92" rx="26" fill="#ede9ff" stroke="#7357ff" stroke-width="3"/>
+      <circle cx="46" cy="46" r="25" fill="#7357ff"/>
+      <path d="M39 31v30l24-15z" fill="#fff"/>
+    </g>
+    <g transform="translate(28 222)">
+      <rect width="76" height="76" rx="21" fill="#e9f8f1"/>
+      <rect x="20" y="16" width="36" height="44" rx="7" fill="#32ad78"/>
+      <path d="M28 29h20M28 38h20M28 47h14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <path d="M194 275h39" stroke="#7357ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 8"/>
+
+  <!-- Open app on the phone -->
+  <g filter="url(#shadow)">
+    <rect x="232" y="16" width="338" height="508" rx="54" fill="#07111f"/>
+    <rect x="244" y="28" width="314" height="484" rx="43" fill="#fff"/>
+  </g>
+  <circle cx="401" cy="48" r="9" fill="#07111f"/>
+  <circle cx="291" cy="89" r="22" fill="#7357ff"/>
+  <path d="M285 76v26l20-13z" fill="#fff"/>
+  <rect x="328" y="80" width="108" height="10" rx="5" fill="#aaa1d0"/>
+  <rect x="328" y="99" width="70" height="7" rx="3.5" fill="#d3cee5"/>
+  <rect x="271" y="139" width="260" height="139" rx="24" fill="#efecfb"/>
+  <circle cx="401" cy="208" r="43" fill="#7357ff" fill-opacity=".16"/>
+  <circle cx="401" cy="208" r="25" fill="#7357ff"/>
+  <path d="M394 192v32l25-16z" fill="#fff"/>
+  <rect x="271" y="298" width="260" height="61" rx="17" fill="#f4f6f8"/>
+  <rect x="289" y="316" width="42" height="25" rx="8" fill="#ddd7f4"/>
+  <rect x="348" y="320" width="97" height="8" rx="4" fill="#b1bfcb"/>
+  <g filter="url(#shadow)">
+    <rect x="340" y="305" width="184" height="184" rx="30" fill="#182047" fill-opacity=".75" stroke="#8b81ce" stroke-width="2"/>
+    <path d="M341 306 523 488M523 306 341 488" stroke="#fff" stroke-opacity=".2" stroke-width="2"/>
+    <rect x="403" y="368" width="58" height="58" rx="16" fill="#7357ff" stroke="#fff" stroke-opacity=".45" stroke-width="2"/>
+  </g>
+
+  <!-- Behavior applied for the selected app -->
+  <path d="M570 275h30" stroke="#7357ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 8"/>
+  <g transform="translate(600 133)" filter="url(#shadow)" font-family="system-ui,sans-serif">
+    <rect width="150" height="274" rx="28" fill="#fff"/>
+    <text x="22" y="35" fill="#7357ff" font-size="12" font-weight="800" letter-spacing="1.5">THIS APP</text>
+    <g transform="translate(17 56)">
+      <rect width="116" height="53" rx="16" fill="#f2f0fc"/>
+      <text x="16" y="22" fill="#756c94" font-size="10" font-weight="700">TAP</text>
+      <text x="16" y="40" fill="#17233a" font-size="14" font-weight="800">Pinch</text>
+    </g>
+    <g transform="translate(17 119)">
+      <rect width="116" height="53" rx="16" fill="#f2f0fc"/>
+      <text x="16" y="22" fill="#756c94" font-size="10" font-weight="700">HOLD</text>
+      <text x="16" y="40" fill="#17233a" font-size="14" font-weight="800">Long press</text>
+    </g>
+    <g transform="translate(17 182)">
+      <rect width="116" height="53" rx="16" fill="#f2f0fc"/>
+      <text x="16" y="22" fill="#756c94" font-size="10" font-weight="700">FLING</text>
+      <text x="16" y="40" fill="#17233a" font-size="14" font-weight="800">Screenshot</text>
+    </g>
+  </g>
+</svg>

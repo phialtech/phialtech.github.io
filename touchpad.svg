@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+  <title id="title">Scrool floating touchpad</title>
+  <desc id="desc">A transparent five-zone touchpad floating over content on a phone.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef7ff"/><stop offset="1" stop-color="#dffaf7"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0b1830" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="800" height="540" rx="36" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="224" y="16" width="352" height="508" rx="54" fill="#07111f"/>
+    <rect x="236" y="28" width="328" height="484" rx="43" fill="#fff"/>
+  </g>
+  <circle cx="400" cy="48" r="9" fill="#07111f"/>
+  <circle cx="271" cy="84" r="13" fill="#2478ff"/>
+  <rect x="296" y="75" width="106" height="10" rx="5" fill="#aebdcc"/>
+  <rect x="296" y="93" width="70" height="7" rx="3.5" fill="#d2dce4"/>
+  <rect x="263" y="129" width="274" height="98" rx="20" fill="#e8f1fa"/>
+  <rect x="284" y="151" width="132" height="11" rx="5.5" fill="#9eb2c6"/>
+  <rect x="284" y="175" width="92" height="8" rx="4" fill="#c1ced9"/>
+  <rect x="284" y="194" width="116" height="8" rx="4" fill="#c1ced9"/>
+  <g>
+    <rect x="263" y="247" width="274" height="69" rx="17" fill="#f4f7f9" stroke="#d9e3ea"/>
+    <rect x="280" y="263" width="45" height="37" rx="10" fill="#dceaf7"/>
+    <rect x="342" y="268" width="93" height="8" rx="4" fill="#afbfcd"/>
+    <rect x="342" y="286" width="64" height="7" rx="3.5" fill="#d0d9e0"/>
+  </g>
+  <g>
+    <rect x="263" y="331" width="274" height="69" rx="17" fill="#f4f7f9" stroke="#d9e3ea"/>
+    <rect x="280" y="347" width="45" height="37" rx="10" fill="#dff3ef"/>
+    <rect x="342" y="352" width="93" height="8" rx="4" fill="#afbfcd"/>
+    <rect x="342" y="370" width="64" height="7" rx="3.5" fill="#d0d9e0"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="347" y="256" width="184" height="220" rx="30" fill="#0a1a34" fill-opacity=".76" stroke="#8da0b4" stroke-opacity=".85" stroke-width="2"/>
+    <path d="M348 257 530 475M530 257 348 475" stroke="#fff" stroke-opacity=".2" stroke-width="2"/>
+    <rect x="407" y="334" width="64" height="64" rx="17" fill="#2478ff" stroke="#fff" stroke-opacity=".45" stroke-width="2"/>
+  </g>
+  <g transform="translate(515 205)">
+    <rect width="142" height="38" rx="19" fill="#fff" stroke="#c9d9e5"/>
+    <circle cx="21" cy="19" r="5" fill="#55d8d2"/>
+    <text x="36" y="24" fill="#263a53" font-family="system-ui,sans-serif" font-size="14" font-weight="700">TOUCHPAD</text>
+  </g>
+  <path d="M550 243 518 273" stroke="#8fa8ba" stroke-width="2" stroke-dasharray="4 5"/>
+</svg>

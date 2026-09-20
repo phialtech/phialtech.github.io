@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Installed-app picker</title><desc id="desc">A list of installed apps with one app selected.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="55" y="25" width="130" height="90" rx="15" fill="white" stroke="#93a9bb" stroke-width="3"/><circle cx="77" cy="49" r="9" fill="#2478ff"/><path d="M96 45h63M96 53h42" stroke="#93a9bb" stroke-width="4" stroke-linecap="round"/><circle cx="77" cy="78" r="9" fill="#55d8df"/><path d="M96 74h63M96 82h42" stroke="#93a9bb" stroke-width="4" stroke-linecap="round"/>
+</svg>

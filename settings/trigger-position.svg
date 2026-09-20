@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Trigger position</title><desc id="desc">A blue edge trigger moves up or down along the lower side of a vertical phone screen.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="78" y="7" width="84" height="126" rx="17" fill="white" stroke="#17304f" stroke-width="3"/>
+  <rect x="84" y="16" width="72" height="111" rx="11" fill="#f7fbfe" stroke="#dce8f0" stroke-width="2"/>
+  <rect x="84" y="72" width="12" height="24" rx="6" fill="#2478ff"/>
+  <path d="M112 39v61" stroke="#93a9bb" stroke-width="3" stroke-dasharray="4 5"/>
+  <path d="m106 40 6-9 6 9M106 99l6 9 6-9" fill="none" stroke="#55d8df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

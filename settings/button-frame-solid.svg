@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Solid button frame</title><desc id="desc">A center button with a complete border.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="82" y="34" width="76" height="72" rx="24" fill="none" stroke="#17304f" stroke-width="8"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Omnidirectional swipe</title><desc id="desc">Arrows radiate from the center to show movement in any direction.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <circle cx="120" cy="70" r="17" fill="#55d8df"/><path d="M120 42V25M120 98v17M92 70H75M148 70h17M100 50 88 38M140 90l12 12M140 50l12-12M100 90 88 102" stroke="#2478ff" stroke-width="5" stroke-linecap="round"/><path d="m120 25-6 9h12zM165 70l-9-6v12zM120 115l-6-9h12zM75 70l9-6v12z" fill="#2478ff"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Touchpad transparency</title><desc id="desc">A solid touchpad and a see-through touchpad compare transparency.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="43" y="37" width="71" height="66" rx="18" fill="#17304f" fill-opacity=".9"/><rect x="126" y="37" width="71" height="66" rx="18" fill="#2478ff" fill-opacity=".25" stroke="#2478ff" stroke-width="3"/><path d="M136 92 187 42" stroke="white" stroke-opacity=".7" stroke-width="3"/>
+</svg>

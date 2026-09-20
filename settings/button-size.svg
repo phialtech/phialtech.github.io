@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Button size</title><desc id="desc">Small and large center buttons compare button size.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <circle cx="78" cy="70" r="22" fill="#55d8df" stroke="#17304f" stroke-width="3"/><circle cx="168" cy="70" r="34" fill="#bdeff0" stroke="#2478ff" stroke-width="3"/>
+</svg>

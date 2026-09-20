@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Horizontal position</title><desc id="desc">A touchpad moved left and right along a horizontal guide.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <path d="M42 70h156" stroke="#93a9bb" stroke-width="4" stroke-linecap="round"/><path d="m55 61-12 9 12 9M185 61l12 9-12 9" fill="none" stroke="#2478ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="97" y="45" width="46" height="50" rx="13" fill="#55d8df" stroke="#17304f" stroke-width="3"/>
+</svg>

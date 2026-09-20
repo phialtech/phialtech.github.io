@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Center button tap action</title><desc id="desc">A colored dot in the square center button.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="60" y="10" width="120" height="120" rx="20" fill="#ffffff" stroke="#17304f" stroke-width="4"/>
+  <path d="M70 20 102 52M170 20 138 52M70 120 102 88M170 120 138 88" fill="none" stroke="#93a9bb" stroke-width="4" stroke-linecap="round"/>
+  <rect x="102" y="52" width="36" height="36" rx="8" fill="#e8f3fb" stroke="#17304f" stroke-width="3"/>
+  <circle cx="120" cy="70" r="9" fill="#2478ff"/>
+</svg>

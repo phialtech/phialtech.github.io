@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+  <title id="title">Customizing the touchpad and cursor</title>
+  <desc id="desc">A phone shows a colorful transparent touchpad and cursor, with controls representing color, size, and transparency.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1efff"/><stop offset="1" stop-color="#e7fbf7"/></linearGradient>
+    <linearGradient id="pad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7657ff"/><stop offset="1" stop-color="#e65bc9"/></linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#d7dde5"/><rect x="8" y="8" width="8" height="8" fill="#d7dde5"/><rect x="8" width="8" height="8" fill="#fff"/><rect y="8" width="8" height="8" fill="#fff"/></pattern>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0b1830" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="800" height="540" rx="36" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="224" y="16" width="352" height="508" rx="54" fill="#07111f"/>
+    <rect x="236" y="28" width="328" height="484" rx="43" fill="#fff"/>
+  </g>
+  <circle cx="400" cy="48" r="9" fill="#07111f"/>
+  <circle cx="273" cy="86" r="13" fill="#7657ff"/>
+  <rect x="298" y="77" width="105" height="10" rx="5" fill="#b1bfcb"/>
+  <rect x="298" y="95" width="68" height="7" rx="3.5" fill="#d2dbe2"/>
+  <rect x="263" y="130" width="274" height="102" rx="20" fill="#f0eefc"/>
+  <rect x="282" y="151" width="132" height="10" rx="5" fill="#aaa3d0"/>
+  <rect x="282" y="174" width="95" height="8" rx="4" fill="#cdc9df"/>
+  <rect x="282" y="194" width="116" height="8" rx="4" fill="#dad7e8"/>
+  <rect x="263" y="249" width="274" height="70" rx="17" fill="#f4f7f9" stroke="#d9e3ea"/>
+  <rect x="281" y="266" width="46" height="36" rx="10" fill="#e0ecf7"/>
+  <rect x="344" y="271" width="92" height="8" rx="4" fill="#afbfcd"/>
+  <rect x="344" y="289" width="64" height="7" rx="3.5" fill="#d0d9e0"/>
+  <rect x="263" y="336" width="274" height="145" rx="19" fill="url(#grid)" opacity=".42"/>
+  <g filter="url(#shadow)">
+    <rect x="344" y="280" width="183" height="201" rx="30" fill="url(#pad)" fill-opacity=".58" stroke="#7657ff" stroke-opacity=".7" stroke-width="2"/>
+    <path d="M345 281 526 480M526 281 345 480" stroke="#fff" stroke-opacity=".28" stroke-width="2"/>
+    <rect x="405" y="348" width="61" height="61" rx="16" fill="#7657ff" fill-opacity=".85" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+  <circle cx="306" cy="193" r="28" fill="#9af06b" fill-opacity=".22"/>
+  <circle cx="306" cy="193" r="14" fill="#9af06b" stroke="#fff" stroke-width="4"/>
+  <!-- Color choices -->
+  <g transform="translate(75 125)" filter="url(#shadow)">
+    <rect width="112" height="205" rx="26" fill="#fff"/>
+    <circle cx="56" cy="42" r="18" fill="#2478ff"/>
+    <circle cx="56" cy="83" r="18" fill="#7657ff" stroke="#0b1830" stroke-width="3"/>
+    <circle cx="56" cy="124" r="18" fill="#e65bc9"/>
+    <circle cx="56" cy="165" r="18" fill="#9af06b"/>
+  </g>
+  <!-- Size and transparency controls -->
+  <g transform="translate(615 118)" filter="url(#shadow)">
+    <rect width="112" height="260" rx="26" fill="#fff"/>
+    <circle cx="56" cy="43" r="10" fill="none" stroke="#7657ff" stroke-width="3"/>
+    <circle cx="56" cy="91" r="19" fill="none" stroke="#7657ff" stroke-width="3"/>
+    <circle cx="56" cy="151" r="28" fill="none" stroke="#7657ff" stroke-width="3"/>
+    <rect x="27" y="211" width="58" height="8" rx="4" fill="#d7dee5"/>
+    <rect x="27" y="211" width="35" height="8" rx="4" fill="#7657ff"/>
+    <circle cx="62" cy="215" r="11" fill="#7657ff" stroke="#fff" stroke-width="3"/>
+  </g>
+</svg>

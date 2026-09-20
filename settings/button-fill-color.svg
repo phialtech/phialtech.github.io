@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Button fill color</title><desc id="desc">A center button filled with a rainbow color.</desc>
+  <linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f05278"/><stop offset=".28" stop-color="#f6b73c"/><stop offset=".52" stop-color="#59c98a"/><stop offset=".76" stop-color="#45a9ed"/><stop offset="1" stop-color="#9b72e6"/></linearGradient>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="82" y="34" width="76" height="72" rx="24" fill="url(#rainbow)"/>
+</svg>

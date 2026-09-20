@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Region boundary color</title><desc id="desc">A touchpad with rainbow-colored diagonal region boundaries.</desc>
+  <defs><linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f05278"/><stop offset=".28" stop-color="#f6b73c"/><stop offset=".52" stop-color="#59c98a"/><stop offset=".76" stop-color="#45a9ed"/><stop offset="1" stop-color="#9b72e6"/></linearGradient></defs>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="57" y="27" width="126" height="86" rx="22" fill="#e8f3fb" stroke="#718aa0" stroke-width="4"/>
+  <path d="M67 37 103 53M173 37 137 53M67 103 103 87M173 103 137 87" fill="none" stroke="url(#rainbow)" stroke-width="6" stroke-linecap="round"/>
+  <rect x="103" y="53" width="34" height="34" rx="10" fill="#d9f7f4" stroke="#17304f" stroke-width="3"/>
+</svg>

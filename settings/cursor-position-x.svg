@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor horizontal position</title><desc id="desc">Cursor dots at different positions across the screen.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="43" y="34" width="154" height="72" rx="14" fill="white" stroke="#93a9bb" stroke-width="3"/>
+  <path d="M58 93h124" stroke="#2478ff" stroke-width="3" stroke-dasharray="5 5"/>
+  <circle cx="63" cy="68" r="10" fill="#2478ff"/><circle cx="173" cy="56" r="13" fill="#55d8df"/>
+</svg>

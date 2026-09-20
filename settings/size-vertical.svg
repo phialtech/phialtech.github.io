@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Vertical size</title><desc id="desc">Short and tall touchpads compare vertical size.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="43" y="49" width="55" height="42" rx="13" fill="#dcecf7" stroke="#17304f" stroke-width="3"/><rect x="142" y="32" width="55" height="76" rx="13" fill="#bdeff0" stroke="#2478ff" stroke-width="3"/>
+</svg>

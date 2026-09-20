@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Corner button frame</title><desc id="desc">A center button represented by four corner marks.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <path d="M104 37H94a12 12 0 0 0-12 12v10M136 37h10a12 12 0 0 1 12 12v10M82 79v10a12 12 0 0 0 12 12h10M158 79v10a12 12 0 0 1-12 12h-10" fill="none" stroke="#17304f" stroke-width="8" stroke-linecap="round"/>
+</svg>

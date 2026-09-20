@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Cardinal swipe</title><desc id="desc">Arrows show only four straight swipe directions.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <circle cx="120" cy="70" r="17" fill="#55d8df"/><path d="M120 43v-24M120 97v24M93 70H69M147 70h24" stroke="#2478ff" stroke-width="6" stroke-linecap="round"/><path d="m120 19-8 11h16zM120 121l-8-11h16zM69 70l11-8v16zM171 70l-11-8v16z" fill="#2478ff"/>
+</svg>

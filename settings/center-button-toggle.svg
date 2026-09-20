@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Center button</title><desc id="desc">A touchpad with a visible center button.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="57" y="27" width="126" height="86" rx="22" fill="#e8f3fb" stroke="#17304f" stroke-width="4"/><circle cx="120" cy="70" r="20" fill="#55d8df" stroke="#17304f" stroke-width="3"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Region boundaries</title><desc id="desc">A touchpad divided into four diagonal outer regions around the center.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="57" y="27" width="126" height="86" rx="22" fill="#e8f3fb" stroke="#17304f" stroke-width="5"/>
+  <path d="M67 37 103 53M173 37 137 53M67 103 103 87M173 103 137 87" fill="none" stroke="#2478ff" stroke-width="4" stroke-linecap="round"/>
+  <rect x="103" y="53" width="34" height="34" rx="10" fill="#55d8df" stroke="#17304f" stroke-width="3"/>
+</svg>

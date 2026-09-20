@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Slider setting</title><desc id="desc">A value slider with a movable handle.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="39" y="65" width="162" height="10" rx="5" fill="#d7e5ef"/><rect x="39" y="65" width="91" height="10" rx="5" fill="#2478ff"/><circle cx="130" cy="70" r="15" fill="white" stroke="#2478ff" stroke-width="5"/>
+</svg>

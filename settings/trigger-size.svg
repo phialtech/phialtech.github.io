@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Trigger size</title><desc id="desc">Short and tall blue trigger bars occupy the lower quarter of vertical phone screens.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="37" y="10" width="65" height="120" rx="15" fill="white" stroke="#17304f" stroke-width="3"/>
+  <rect x="43" y="18" width="53" height="104" rx="10" fill="#f7fbfe" stroke="#dce8f0" stroke-width="2"/>
+  <rect x="43" y="101" width="10" height="21" rx="5" fill="#2478ff"/>
+  <rect x="138" y="10" width="65" height="120" rx="15" fill="white" stroke="#17304f" stroke-width="3"/>
+  <rect x="144" y="18" width="53" height="104" rx="10" fill="#f7fbfe" stroke="#dce8f0" stroke-width="2"/>
+  <rect x="144" y="76" width="10" height="46" rx="5" fill="#55d8df"/>
+</svg>

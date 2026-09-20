@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Region boundary width</title><desc id="desc">Thin and thick diagonal region boundary lines.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="33" y="35" width="76" height="70" rx="17" fill="#e8f3fb" stroke="#718aa0" stroke-width="3"/>
+  <path d="M42 44 62 59M100 44 80 59M42 96 62 81M100 96 80 81" fill="none" stroke="#17304f" stroke-width="3" stroke-linecap="round"/>
+  <rect x="131" y="35" width="76" height="70" rx="17" fill="#e8f3fb" stroke="#718aa0" stroke-width="3"/>
+  <path d="M140 44 160 59M198 44 178 59M140 96 160 81M198 96 178 81" fill="none" stroke="#2478ff" stroke-width="9" stroke-linecap="round"/>
+</svg>

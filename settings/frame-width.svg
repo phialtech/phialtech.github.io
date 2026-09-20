@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Frame width</title><desc id="desc">Thin and thick border lines compare frame width.</desc>
+  
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <rect x="44" y="37" width="65" height="66" rx="17" fill="none" stroke="#17304f" stroke-width="3"/><rect x="131" y="37" width="65" height="66" rx="17" fill="none" stroke="#2478ff" stroke-width="10"/>
+</svg>

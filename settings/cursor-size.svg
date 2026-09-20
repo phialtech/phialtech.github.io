@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Cursor size</title><desc id="desc">Small and large cursor dots compare cursor size.</desc>
+  <rect width="240" height="140" rx="18" fill="#f3f8fc"/>
+  <circle cx="78" cy="70" r="18" fill="#2478ff"/><circle cx="168" cy="70" r="34" fill="#55d8df"/>
+</svg>
